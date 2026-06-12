@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Megha Angadi | Engineering E-Portfolio</title>
+  <!-- Google Fonts: Outfit for Headings, Inter for Body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Progress Bar for Scroll -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-accent">&lt;</span>Megha<span class="logo-accent">.Dev /&gt;</span>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#activities" class="nav-link">Activities</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-nav">Hire Me</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    
+    <!-- Home Section -->
+    <section class="section home-section" id="home">
+      <div class="container home-container">
+        <div class="home-content">
+          <div class="badge">
+            <span class="badge-dot"></span> Available for Opportunities
+          </div>
+          <h1 class="home-title">
+            Hi, I'm <span class="text-gradient">Megha Angadi</span>
+          </h1>
+          <h2 class="home-subtitle">
+            I'm a <span id="typing-text"></span><span class="typing-cursor">|</span>
+          </h2>
+          <p class="home-description">
+            An engineering student passionate about building efficient code, exploring artificial intelligence, and leveraging modern technologies to solve real-world problems.
+          </p>
+          <div class="home-buttons">
+            <a href="#projects" class="btn btn-primary">
+              View My Work <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Let's Connect <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="home-profile">
+          <div class="profile-glow"></div>
+          <div class="profile-card-wrapper">
+            <div class="profile-card">
+              <div class="profile-avatar-frame">
+                <img src="profile-avatar.png" alt="Megha Angadi profile illustration" class="profile-avatar">
+              </div>
+              <div class="profile-details">
+                <span class="profile-name">Megha Angadi</span>
+                <span class="profile-role">Engineering Student</span>
+                <div class="profile-stats">
+                  <div class="stat-item">
+                    <span class="stat-num">4+</span>
+                    <span class="stat-label">Core Skills</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-num">2+</span>
+                    <span class="stat-label">Projects</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-num">3+</span>
+                    <span class="stat-label">Activities</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get to Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-info">
+            <h3 class="about-info-title">Aspiring Engineer & Technology Enthusiast</h3>
+            <p class="about-text">
+              I am currently pursuing my engineering degree, focusing on computing paradigms, system architecture, and cutting-edge software solutions. I thrive on diving deep into technical systems, building functional applications, and keeping pace with the rapid advancements in Artificial Intelligence.
+            </p>
+            <p class="about-text">
+              My academic journey has equipped me with fundamental problem-solving methodologies, structured programming workflows, and hands-on exposure to practical engineering activities. I'm excited to apply these competencies to collaborative developments and real-world projects.
+            </p>
+            <div class="about-meta">
+              <div class="meta-item">
+                <span class="meta-label">Study:</span>
+                <span class="meta-val">Engineering (B.E. / B.Tech)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Location:</span>
+                <span class="meta-val">Karnataka, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-interests">
+            <h3 class="about-info-title">Primary Interests</h3>
+            <div class="interest-cards">
+              <div class="interest-card">
+                <div class="interest-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <h4>Programming</h4>
+                <p>Designing structured algorithms, handling data, and building clean console/web-based applications.</p>
+              </div>
+
+              <div class="interest-card">
+                <div class="interest-icon">
+                  <i class="fa-solid fa-brain"></i>
+                </div>
+                <h4>Artificial Intelligence</h4>
+                <p>Exploring neural networks, large language models, machine learning architectures, and agentic workflows.</p>
+              </div>
+
+              <div class="interest-card">
+                <div class="interest-icon">
+                  <i class="fa-solid fa-microchip"></i>
+                </div>
+                <h4>Technology</h4>
+                <p>Analyzing physical hardware configurations, digital logic simulations, and modern infrastructure platforms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">My Capabilities</span>
+          <h2 class="section-title">Skills & Expertise</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1 -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">C Programming</h3>
+              <span class="skill-level">Intermediate - Advanced</span>
+              <p class="skill-desc">Algorithms, memory management, pointers, and developing command-line applications.</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 2 -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Git & GitHub</h3>
+              <span class="skill-level">Intermediate</span>
+              <p class="skill-desc">Version control, branch management, collaborative workflows, and repository hosting.</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 3 -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-bezier-curve"></i>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">TinkerCAD</h3>
+              <span class="skill-level">Intermediate</span>
+              <p class="skill-desc">Simulating electronic micro-circuits, Arduino prototyping, and structural 3D modeling.</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 4 -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Prompt Engineering</h3>
+              <span class="skill-level">Advanced</span>
+              <p class="skill-desc">Interfacing with LLMs, writing optimal instructions, contextual design, and multi-turn workflows.</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="width: 90%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">What I've Built</span>
+          <h2 class="section-title">Projects</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-icon-wrapper">
+                <i class="fa-solid fa-wallet"></i>
+              </div>
+              <div class="project-overlay">
+                <span class="project-category">C Language / Console App</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Digital Wallet System</h3>
+              <p class="project-desc">
+                A highly secure, command-line virtual wallet transaction ledger. This application manages user authentication, dynamic balance queries, funds transfers between peer wallets, deposit/withdrawal options, and maintains a persistent encrypted transaction history file.
+              </p>
+              <div class="project-tags">
+                <span>C Language</span>
+                <span>File Handling</span>
+                <span>Cryptography</span>
+                <span>CLI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/meghaangadi489-beep" target="_blank" rel="noopener noreferrer" class="btn-project">
+                  <i class="fa-brands fa-github"></i> View Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-icon-wrapper">
+                <i class="fa-solid fa-draw-polygon"></i>
+              </div>
+              <div class="project-overlay">
+                <span class="project-category">Graphics Programming</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">2D Graphics Editor</h3>
+              <p class="project-desc">
+                An interactive vector and raster graphics editor. Users can render basic shapes (lines, circles, rectangles), modify colors, perform transformations (scaling, rotations, translations), and export their visual workspace configurations to structured formats.
+              </p>
+              <div class="project-tags">
+                <span>C / C++</span>
+                <span>Graphics.h</span>
+                <span>Algorithms</span>
+                <span>UI Design</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/meghaangadi489-beep" target="_blank" rel="noopener noreferrer" class="btn-project">
+                  <i class="fa-brands fa-github"></i> View Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="section activities-section" id="activities">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Co-Curriculars</span>
+          <h2 class="section-title">Activities & Visits</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="activities-timeline">
+          <!-- Activity 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <div class="timeline-content">
+              <span class="activity-date">Hardware Workshop</span>
+              <h3 class="activity-title">PC Dissection</h3>
+              <p class="activity-desc">
+                Participated in a hands-on mechanical teardown and analysis of a standard desktop computer system. Inspected component placements including the central processing unit (CPU), heat sink thermal interfaces, dual-inline memory modules (DIMM/RAM), motherboards, PCI Express interfaces, switch mode power supplies (SMPS), and magnetic/solid-state storage integrations.
+              </p>
+              <div class="activity-details">
+                <span class="detail-badge"><i class="fa-solid fa-microchip"></i> System Hardware</span>
+                <span class="detail-badge"><i class="fa-solid fa-tools"></i> Hands-on Lab</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-faucet-drip"></i>
+            </div>
+            <div class="timeline-content">
+              <span class="activity-date">Industrial Field Visit</span>
+              <h3 class="activity-title">Sewage Treatment Plant Visit</h3>
+              <p class="activity-desc">
+                Conducted an academic study trip to a regional wastewater treatment facility. Observed industrial instrumentation systems, biological anaerobic digesters, mechanical screens, primary aeration stages, sedimentation basins, and tertiary chlorination/filtration loops to study environmental engineering principles.
+              </p>
+              <div class="activity-details">
+                <span class="detail-badge"><i class="fa-solid fa-industry"></i> Plant Process</span>
+                <span class="detail-badge"><i class="fa-solid fa-circle-info"></i> Industrial Study</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <div class="timeline-content">
+              <span class="activity-date">Digital Laboratory</span>
+              <h3 class="activity-title">TinkerCAD Activities</h3>
+              <p class="activity-desc">
+                Executed a sequence of web-based engineering designs and digital breadboard simulations. Designed micro-electronic circuits using microcontrollers (Arduino Uno), integrated analog sensors (photoresistors, ultrasonic detectors), and programmed structural logic algorithms to interact with actuator components.
+              </p>
+              <div class="activity-details">
+                <span class="detail-badge"><i class="fa-solid fa-network-wired"></i> Circuit Simulation</span>
+                <span class="detail-badge"><i class="fa-solid fa-cube"></i> 3D Modeling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Contact</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-panel">
+            <h3 class="contact-panel-title">Let's Discuss Projects or Collaborations</h3>
+            <p class="contact-panel-text">
+              Have an idea, want to discuss software engineering, AI developments, or collaborate on student projects? Drop a message or connect through my github!
+            </p>
+
+            <div class="contact-cards">
+              <a href="mailto:megha.angadi.placeholder@example.com" class="contact-item-card">
+                <div class="contact-card-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-card-details">
+                  <span class="contact-card-label">Email Me</span>
+                  <span class="contact-card-value">megha.angadi@example.com</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/meghaangadi489-beep" target="_blank" rel="noopener noreferrer" class="contact-item-card">
+                <div class="contact-card-icon">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="contact-card-details">
+                  <span class="contact-card-label">GitHub Profile</span>
+                  <span class="contact-card-value">github.com/meghaangadi489-beep</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Hi Megha, I'd like to collaborate..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+              </button>
+              <div class="form-status" id="formStatus"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-about">
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-accent">&lt;</span>Megha<span class="logo-accent">.Dev /&gt;</span>
+        </a>
+        <p class="footer-desc">
+          Engineering Student Portfolio. Showcasing software design, logic programming, and tech explorations.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Socials</h4>
+        <div class="social-icons">
+          <a href="https://github.com/meghaangadi489-beep" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="mailto:megha.angadi@example.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; 2026 Megha Angadi. All Rights Reserved. Built for College Academic Submission.</p>
+        <a href="#home" class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
